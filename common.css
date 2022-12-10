@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tab-menu {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.tab-menu li {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #000;
+  background-color: #6b5262;
+  cursor: pointer;
+}
+.tab-menu li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.tab-menu li:hover {
+  background-color: pink;
+}
+.tab-menu li.active {
+  background-color: pink;
+}
